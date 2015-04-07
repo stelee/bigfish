@@ -28,7 +28,7 @@
       <link rel="stylesheet" href="styles/styleNoJs.css">
     </noscript>
   </head>
-  <body ng-controller="welcomeCtrl">
+  <body>
     <div id="load"></div><!--[if lt IE 9]>
     <p class="browsehappy">You are using an strong outdated browser. <br>Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -52,27 +52,9 @@
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right service-nav">
-              <li><a id="dropdownMenuLogin" href="#" data-toggle="dropdown" class="upper dropdown-toggle">Login</a>
-                <div aria-labelledby="dropdownMenuLogin" class="dropdown-menu widget-box">
-                  <form>
-                    <div class="form-group">
-                      <label class="sr-only">Username or Email</label>
-                      <input type="text" value="" placeholder="Username or Email" name="" class="form-control input-lg">
-                    </div>
-                    <div class="form-group">
-                      <label class="sr-only">Password</label>
-                      <input type="password" value="" placeholder="Password" name="" class="form-control input-lg">
-                    </div>
-                    <div class="form-inline form-group">
-                      <button type="button" class="btn btn-primary btn-xs">Login</button>
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox"><small> Remember me</small>
-                        </label>
-                      </div>
-                    </div><a href="#"><small>Lost your Password?</small></a>
-                  </form>
-                </div>
+              <li><a  href="/main.html#login" class="upper">Sign In</a>
+              </li>
+              <li><a href="/main.html#signUp" class="upper">Sign Up</a>
               </li>
 
             </ul>
